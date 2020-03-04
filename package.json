@@ -1,0 +1,28 @@
+{
+  "name": "TemplateEngine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Employee.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.5",
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrismw7579/TemplateEngine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrismw7579/TemplateEngine/issues"
+  },
+  "homepage": "https://github.com/Chrismw7579/TemplateEngine#readme"
+}
