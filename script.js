@@ -186,7 +186,7 @@ const addMember = () => {
             <div class="info-container">
                 <div class="info">
                     <h3>ID: ${teamManager.getId()}</h3>
-                    <h4>Email: <a href="${teamManager.getEmail()}"></a></h4>
+                    <h4>Email: <a href="${teamManager.getEmail()}">${teamManager.getEmail()}</a></h4>
                     <h4>Office Number: ${teamManager.officeNumber}</h4>
                 </div>
             </div>
@@ -201,7 +201,7 @@ const addMember = () => {
         
         let other = '';
         if (role.toLowerCase() == 'engineer') {
-            other = `GitHub: <a href="${team[i].getGithub()}"></a>`;
+            other = `GitHub: <a href="${team[i].getGithub()}">${team[i].getGithub()}</a>`;
         } else if (role.toLowerCase() == 'intern') {
             other = `School: ${team[i].getSchool()}`;
         }
@@ -218,7 +218,7 @@ const addMember = () => {
                 <div class="info-container">
                     <div class="info">
                         <h3>ID: ${id}</h3>
-                        <h4>Email: <a href="${email}"></h4>
+                        <h4>Email: <a href="${email}">${email}</a></h4>
                         <h4>${other}</h4>
                     </div>
                 </div>
